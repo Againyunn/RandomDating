@@ -6,4 +6,5 @@ urlpatterns = [
         path('worksheet' ,views.worksheet, name='worksheet'),
         path('test' ,views.test, name='test'),
         path('gugu', views.gugu, name='gugu'),
+        #path('login', views.login, name='login'),
 ]

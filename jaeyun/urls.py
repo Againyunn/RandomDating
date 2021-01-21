@@ -21,4 +21,6 @@ urlpatterns = [
     path('jaeyun/', admin.site.urls),
     path('first/', include('first.urls')),
     path('user/', include('user.urls')),
+    path('lottos/' , include('lottos.urls')),
+   # path('login/' , include('first.urls')),
 ]
