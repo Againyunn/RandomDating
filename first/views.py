@@ -4,38 +4,34 @@ import random
 
 
 # Create your views here.
-#def login(req):
-    #if req.method == 'GET':
-     #   return render(req, 'login.html')
+def login(req):
+    if req.method == 'POST':
+       return render(req, 'login.html')
 
-    #elif req.method == 'POST':
-      #  username = req.POST.get('username', None)
-      #  useremail = req.POST.get('useremail', None)
+    elif req.method == 'POST':
+        username = req.POST.get('username', None)
+        useremail = req.POST.get('useremail', None)
 
-       # err = {}
+        err = {}
+        if not (useremail and username) :
+            err['err'] = '유효성이 잘못되었습니다.'
+            return render(req, 'login.html', err)
 
-        #if not (useremail and username) :
-         #   err['err'] = '유효성이 잘못되었습니다.'
-          #  return render(req, 'login.html', err)
-       # else: 
-        #    member = Members.objects.get(username=username)
+        else: 
+            member = Members.objects.get(username=username)
 
-         #   if useremail == member.useremail :
-                
-          #  return HttpResponse(f'<h1>{member.useremail}</h1>')
+            if useremail == member.useremail :
+                return HttpResponse(f'<h1>{member.useremail}</h1>')
 
-        # username = req.POST.get('username', None)
-        # email = req.POST.get('password', None)
-
-        # err = {}
-        # if not(username and email) : 
-        #     err['err'] ='비밀번호 오류'
-        #     return  render(req, 'login.html', err)
-        # else :
+            err = {}
+            if not(username and email) :
+                err['err'] ='비밀번호 오류'
+                return  render(req, 'login.html', err)
+    else :
             ## db read
             ## session 만들기
 
-       # return redirect('/')
+        return redirect('/')
 
 def index(req):
     lotto = []
@@ -66,7 +62,7 @@ def worksheet(request):
 def test(request):
     return HttpResponse( "<h1>안녕</hl>")
 
-def signup(request):
+def signup(req):
     if req.method == 'POST' :
         print(req.POST['username'])
         #username == exit

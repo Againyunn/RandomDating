@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'first',
     'user',
     'lottos',
+    'novel',
+    'cookie',
 ]
 
 
