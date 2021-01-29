@@ -69,6 +69,7 @@ def signup(req):
         #h2로 나가기를 출력
         if username == 'exit' :
             return Httpresponse('나가기')
+            
         elif username =='codingon' :
             return render(req, 'login.html')
 

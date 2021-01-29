@@ -24,4 +24,5 @@ urlpatterns = [
     path('lottos/' , include('lottos.urls')),
     path('novel/' , include('novel.urls')),
     path('cookie/', views.index),
+    path('randomdate/', include('project.urls')),
  ]
