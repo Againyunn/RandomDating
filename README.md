@@ -2,6 +2,7 @@
 
 본 1차 개인 프로젝트는 Django 와 Html, css, js, bootstrap 일부를 차용하여 제작하였습니다.
 실제 웹사이트 구동 캡쳐 영상은 "   https://blog.naver.com/rangyun    " 개인 블로그를 통해 확인하실 수 있습니다.
+  
   *기본적으로 mvt(model > views > templates )구조로 구성되어 있으며, 
   *실제 웹 사이트 운용코드는 templates 파일 내의 html 파일과
   *벡엔드 단의 운용코드는 views.py 파일 참고 부탁드립니다.
