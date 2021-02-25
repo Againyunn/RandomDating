@@ -25,9 +25,9 @@ project 파일 >> 국비지원 프로그램 시 최종 개인 프로젝트로 �
   프로젝트 명 : random date 추천 웹 사이트
   
   templates
-    random.html : 첫화면
-    데이트추천 명.html : 랜덤으로 출력될 화면 (총 40개 추천목록)
-    certification.html : 웹사이트 사용 설명 제공
+    random.html >> 첫화면
+    데이트추천 명.html >> 랜덤으로 출력될 화면 (총 40개 추천목록)
+    certification.html >> 웹사이트 사용 설명 제공
   
   views.py
     random 함수 이용
