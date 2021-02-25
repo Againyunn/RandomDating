@@ -74,7 +74,7 @@ lottos 파일 (template없이 views에서 간단한 문자 출력만 하도록 �
 
 novel 파일
 
-  templates
+    templates
   
     novel.html >> 웹 주소 창에 이름을 입력하면 해당 이름이 웹 사이트 내에 출력되는 웹 사이트
     
