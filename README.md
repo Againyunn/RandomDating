@@ -33,13 +33,13 @@ project 파일 >> 국비지원 프로그램 시 최종 개인 프로젝트로 �
 
   프로젝트 명 : random date 추천 웹 사이트
   
-  templates
+    templates
   
-    random.html >> 첫화면
+      random.html >> 첫화면
     
-    데이트추천 명.html >> 랜덤으로 출력될 화면 (총 40개 추천목록)
+      데이트추천 명.html >> 랜덤으로 출력될 화면 (총 40개 추천목록)
     
-    certification.html >> 웹사이트 사용 설명 제공
+      certification.html >> 웹사이트 사용 설명 제공
   
   
   views.py
@@ -54,20 +54,20 @@ project 파일 >> 국비지원 프로그램 시 최종 개인 프로젝트로 �
 
 first 파일
 
-  templates
+    templates
   
-    worksheet.html >> 월별 스케쥴 관리가 가능한 웹 사이트
-    
-    login2.html >> 로그인 첫 창 구현
-    
-    test.html >> h1 헤드 출력 테스트용 
-    
-    a.html >> h1 헤드 출력 테스트용 
+      worksheet.html >> 월별 스케쥴 관리가 가능한 웹 사이트
+
+      login2.html >> 로그인 첫 창 구현
+
+      test.html >> h1 헤드 출력 테스트용 
+
+      a.html >> h1 헤드 출력 테스트용 
 
 
 lottos 파일 (template없이 views에서 간단한 문자 출력만 하도록 코드 구축)
 
-  views.py
+    views.py
   
     로또 번호를 랜덤으로 출력해주는 웹 사이트
 
