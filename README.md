@@ -2,7 +2,7 @@
 
 본 1차 개인 프로젝트는 Django 와 Html, css, js, bootstrap 일부를 차용하여 제작하였습니다.
 
-실제 웹사이트 구동 캡쳐 영상은 "   https://blog.naver.com/rangyun    " 개인 블로그를 통해 확인하실 수 있습니다.
+실제 웹사이트 구동 캡쳐 영상은 "   https://blog.naver.com/rangyun/222240831159    " 개인 블로그를 통해 확인하실 수 있습니다.
   
   *기본적으로 mvt(model > views > templates )구조로 구성되어 있으며, 
   
